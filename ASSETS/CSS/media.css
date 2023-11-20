@@ -1,0 +1,14 @@
+/*p1.html */
+/*mobile version */
+@media(max-width:768px){
+.container{
+    grid-template-columns: 1fr;
+}
+}
+
+/*tab version */
+@media(min-width:769px) and (max-width:1024px){
+    .container{
+        grid-template-columns:repeat(2,1fr);
+    }
+    }
